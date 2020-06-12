@@ -1,0 +1,72 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.payform {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.container .logo {
+	margin-top: 20px;
+    text-align: center;
+}
+
+.logo img {
+	width: 180px;
+    height: 130px;
+}
+
+.pay-form .box {
+	width: 600px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 30px;
+	padding: 20px 30px 20px 30px;
+}
+
+form h2:after{
+	content: "";
+	display: flex;
+	width: 100%;
+	height: 1px;
+	background-color: #ccaf0c;
+}
+
+.first-row {
+	margin-top: 20px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group label {
+	font-size: 14px;
+}
+
+.last-row .boton {
+	text-align: center;
+
+}
+
+.boton button {
+	width: 160px;
+    padding: 10px;
+    background-color: #e2b728;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}

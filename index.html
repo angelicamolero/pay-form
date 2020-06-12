@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pay Form</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+	<section class="payform">
+		<div class="container">
+            <div class="row logo">
+            	<div class="col-sm-12 col-xs-12">
+            		<img src="img/logo.png" alt="">
+            	</div>
+            </div>
+
+            <div class="row pay-form justify-content-center">
+            	<div class="col-xs-12 col-xs-12 box">
+            		<form action="">
+            			<h2>Suscribete</h2>
+            			<div class="row first-row">
+            				<div class="col-xs-6 col-md-6">
+            					<div class="form-group">
+            					<label for="nombre">Nombre</label>
+            					<input type="text" name="nombre" required="required">
+            					 </div>
+            				</div>
+            				<div class="col-xs-6 col-md-6">
+            					<div class="form-group">
+            					<label for="apellido">Apellido</label>
+            					<input type="text" name="apellido" required="required">
+            					 </div>
+            				</div>
+            			</div>
+
+            			<div class="row second-row">
+            				<div class="col-sm-6 col-xs-6">
+            					<div class="form-group">
+            					<label for="email">Email</label>
+            					<input type="email" name="email" required="required">            						
+            					</div>
+            				</div>
+            				<div class="col-sm-6 col-xs-6">
+            					<div class="form-group">
+            					<label for="phone">Telefono</label>
+            					<input type="text" name="phone" required="required">            						
+            					</div>
+            				</div>
+            			</div>
+
+            			<div class="row third-row">
+            				<div class="col-xs-6 col-sm-6">
+            					<div class="form-group">
+            						<label for="pais">Pais</label>
+            						<input type="text" name="pais" required="">
+            					</div>
+            				</div>
+            				<div class="col-xs-6 col-sm-6">
+            					<div class="form-group">
+            						<label for="city">Ciudad</label>
+            						<input type="text" name="city" required="">
+            					</div>
+            				</div>
+            			</div>
+
+            			<div class="row four-row">
+            				<div class="col-sm-12 col-xs-12">
+            					<div class="form-group">
+            	                 <label for="pago">Opcion a pagar</label>
+            						<select name="pago" id="pago">
+            						<option value="online">Curso Online $699.99</option>
+            						<option value="membresia">Membresia $499.99</option>
+            						<option value="presencial">Curso Presencial</option>
+            						</select>
+            					</div>
+            				</div>
+            			</div>
+
+            			<div class="row last-row">
+            				<div class="col-xs-12 col-sm-12 boton">
+            					<button>Realizar Pago</button>
+            				</div>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+		</div>
+	</section>
+</body>
+</html>
